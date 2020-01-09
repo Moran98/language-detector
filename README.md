@@ -30,7 +30,7 @@ My Runner class is very basic, I created an Object for the UI class and then cal
 ## AnalyseQuery Method
 In my analyseQuery() method i am passing the name of the query file which is then read through a buffer line by line. I am then calling the getLanguage() method from the Database to detect the language based off of its frequency values. 
 
-#Extra Innovation
+# Extra Innovation
 
 ## Running Times
 I briefly added nanoTime() code just to test the speed of the programs execution to detect a language based of its file size. At first it was running at lightning fast speeds but as the code had to be changed in specific areas to meet an accurate result this slowed down the running time but by a very small fraction. 
